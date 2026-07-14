@@ -1,7 +1,11 @@
-name: advanced event action workflow  
+name: advanced event activity type action workflow  
 
-on: [push, pull_request, issues, fork, workflow_dispatch]  
-
+on: 
+    push:  
+    issues:
+        types:
+        - opened
+        - edited
 jobs:  
   
   test:
