@@ -10,7 +10,7 @@ jobs:
           ls ${{ github.workspace }}  
           echo Run Test  
   build: 
-    if: github.repository == 'inky4832/github-action-test' 
+    if: github.repository == 'inky4832/github-action-test2' 
     needs: test
     continue-on-error: true  
     runs-on: ubuntu-latest  
